@@ -59,6 +59,11 @@ body {
     mask-size: 42%;
 }
 
+.itemHead{
+    @apply text-2xl md:text-4xl lg:text-6xl font-black font-modern-negra text-yellow-400
+}
+
+
 @layer components {
     main {
         @apply w-full overflow-x-hidden;
@@ -100,10 +105,28 @@ body {
     #hero {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
 
-        .body {
-            @apply container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[8vh] flex justify-between items-end px-5;
+        .headTitle{
+            @apply sm:text-6xl md:text-6xl lg:text-8xl  text-center mt-40 text-yellow-400 font-bold md:mb-10 font-modern-negra
+        }
 
-            
+        .body {
+            @apply container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[8vh] flex justify-between items-end px-5 md:mt-60 lg:mt-134 lg:mr-20;
+
+            .firstRow{
+                @apply flex  flex-col md:flex-row justify-between mx-15 gap-8 md:gap-70
+                
+                
+            }
+
+            ul{
+                li{
+                    @apply  text-gray-200 md:text-3xl mb-2 flex items-center gap-2
+                }
+            }
+
+            button{
+                @apply bg-yellow-400 text-gray-600 hover:text-gray-200 rounded-full p-2 mt-1 cursor-pointer font-modern-negra hover:scale-105
+            }
         }
     }
 
