@@ -46,14 +46,14 @@ body {
 @utility radial-gradient {
     background: radial-gradient(
             circle at center,
-            #434343 0%,
-            black 50%,
-            transparent 100%
+            #000 2%,
+            black 10%,
+            transparent 60%
     );
 }
 
 @utility masked-img {
-    mask-image: url("/images/masked-img.png");
+    mask-image: url("/images/agri-transparent.png");
     mask-repeat: no-repeat;
     mask-position: center;
     mask-size: 42%;
@@ -130,67 +130,8 @@ body {
         }
     }
 
- 
-
-   
 
     #about {
-        @apply min-h-screen py-28 2xl:px-0 px-5 container mx-auto;
-
-        .content {
-            @apply grid grid-cols-1 lg:grid-cols-12 gap-5;
-
-            h2 {
-                @apply text-5xl md:text-6xl font-modern-negra max-w-lg;
-            }
-
-            .sub-content {
-                @apply md:col-span-4 space-y-5 flex flex-col justify-between;
-
-                p {
-                    @apply text-lg;
-                }
-
-                div {
-                    @apply flex flex-col justify-between md:gap-2 gap-5;
-
-                    span {
-                        @apply text-yellow font-bold text-5xl;
-                    }
-                }
-            }
-        }
-
-        .badge {
-            @apply inline-block rounded-full bg-white text-black px-4 py-2 text-sm font-medium mb-8;
-        }
-
-        .top-grid {
-            @apply grid grid-cols-1 xl:grid-cols-12 gap-5 mb-5 md:px-0 px-5;
-
-            > div {
-                @apply rounded-3xl overflow-hidden h-72 relative;
-            }
-
-            img {
-                @apply object-cover w-full h-full;
-            }
-        }
-
-        .bottom-grid {
-            @apply grid grid-cols-1 md:grid-cols-12 gap-5 md:px-0 px-5;
-
-            > div {
-                @apply rounded-3xl overflow-hidden h-72 relative;
-            }
-
-            img {
-                @apply object-cover w-full h-full;
-            }
-        }
-    }
-
-    #design {
         @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
 
         h2 {
