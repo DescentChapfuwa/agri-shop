@@ -1,9 +1,8 @@
 import React from "react";
-import { productsList } from "../constants";
+import { missionList, visionList } from "../constants";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useMediaQuery } from "react-responsive";
-
 
 const About = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
@@ -13,7 +12,7 @@ const About = () => {
 
     const maskTimeline = gsap.timeline({
       scrollTrigger: {
-        trigger: "#design",
+        trigger: "#about",
         start: start,
         end: "bottom center",
         scrub: 1.5,
@@ -36,19 +35,22 @@ const About = () => {
   return (
     <div id="about">
       <div className="container mx-auto h-full pt-20">
-        <h2 className="will-fade">AB <span></span>OUT</h2>
+        <h2 className="will-fade text-yellow-300">
+          ABO<span className="text-gray-600">UT</span>
+        </h2>
 
         <div className="content">
-          <ul className="space-y-4 will-fade">
-            {productsList.map((graphics, index) => (
-              <li key={index} className="flex items-center gap-2">
+          <ul className="space-y-4 ">
+            <h1 className="text-center text-2xl font-modern-negra">Mission</h1>
+            {missionList.map((mission) => (
+              <li key={mission.id} className="flex items-center gap-2">
                 <img src="/images/check.png" alt="check" />
-                <p>{graphics.title}</p>
+                <p>{mission.title}</p>
               </li>
             ))}
           </ul>
 
-          <div className="cocktail-img">
+          <div className="agri-img">
             <img
               src="/images/agri-transparent.png"
               alt="cocktail"
@@ -56,26 +58,28 @@ const About = () => {
             />
           </div>
 
-          <ul className="space-y-4 will-fade">
-            {productsList.map((graphics, index) => (
+          <ul className="space-y-4 ">
+            <h1 className="text-center text-2xl font-modern-negra">Vision</h1>
+            {visionList.map((vision) => (
               <li
-                key={index}
+                key={vision.id}
                 className="flex items-center justify-start  gap-2"
               >
-               <img src="/images/check.png" alt="check" />
-                <p className="md:w-fit w-60 ">{graphics.title}</p>
+                <img src="/images/check.png" alt="check" />
+                <p className="md:w-fit w-60 ">{vision.title}</p>
               </li>
             ))}
           </ul>
         </div>
 
-        <div className="masked-container">
-          <h2 className="will-fade">Stareworthy Perfection</h2>
+        <div className="masked-container mt-1">
+          <h2 className="will-fade">A Worthy Investment</h2>
           <div id="masked-content">
-            <h3>Made with craft ,Edited with passion</h3>
+            <h3>Work with us and farm with pride</h3>
             <p>
-              It wont be just an image,video or poster after we are done. It
-              will emerge as a carefully crafted moment made just for you.
+              It is not just agricultural inputs we offer but we also assist in
+              building your farming legacy.Delivering high yields ,keeping your
+              crops and your livestock healthy
             </p>
           </div>
         </div>

@@ -32,6 +32,44 @@ const productsList = [
   },
 ];
 
+const missionList = [
+  {
+    id: 1,
+    title: "Deliver quality agric inputs",
+  },
+  {
+    id: 2,
+    title: "Overcome Drought",
+  },
+  {
+    id: 3,
+    title: "Feed the state",
+  },
+   {
+    id: 4,
+    title: "Spread Agric awareness",
+  },
+];
+
+const visionList = [
+  {
+    id: 1,
+    title: "Overcome drought by 2030",
+  },
+  {
+    id: 2,
+    title: "Foster Agricultural Literacy",
+  },
+  {
+    id: 3,
+    title: "Increase food supply",
+  },
+   {
+    id: 4,
+    title: "Include everyone",
+  },
+];
+
 const productsLinks = [
   {
     id: "agri-tools",
@@ -209,6 +247,8 @@ export {
   cocktailLists,
   productsLinks,
   productsList,
+  missionList,
+  visionList,
   mockTailLists,
   profileLists,
   featureLists,
