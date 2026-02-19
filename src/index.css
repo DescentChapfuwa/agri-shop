@@ -52,6 +52,15 @@ body {
     );
 }
 
+@utility radial-gradient-about {
+    background: radial-gradient(
+            circle at center,
+            #000 0%,
+            black 0%,
+            transparent 60%
+    );
+}
+
 @utility masked-img {
     mask-image: url("/images/agri-transparent.png");
     mask-repeat: no-repeat;
@@ -106,7 +115,7 @@ body {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
 
         .headTitle{
-            @apply sm:text-6xl md:text-6xl lg:text-8xl  text-center mt-40 text-yellow-400 font-bold md:mb-10 font-modern-negra
+            @apply sm:text-6xl md:text-6xl lg:text-9xl  text-center mt-40 text-yellow-400 font-bold md:mb-10 font-modern-negra
         }
 
         .body {
@@ -164,6 +173,7 @@ body {
             }
         }
     }
+    
 
     #events {
         @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient;

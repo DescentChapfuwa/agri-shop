@@ -34,7 +34,7 @@ const Navbar = () => {
             className="h-15 w-15 rounded-full"
             alt="logo"
           />
-          <p>Agri-Shop</p>
+          <p className="text-yellow-300 font-modern-negra text-2xl">Agri-<span className="text-gray-900">Shop</span></p>
         </a>
         <ul>
           {navLinks.map((link) => (

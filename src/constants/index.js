@@ -90,6 +90,30 @@ const productsLinks = [
 
 ];
 
+const teamLists = [
+  {
+    id: 1,
+    name: "Moses Chapwadza",
+    title: "Shop Manager",
+  },
+   {
+    id: 2,
+    name: "Lorrayne Mvero",
+    title: "Cashier",
+  },
+  {
+    id: 3,
+    name: "Mchoy Ngwele",
+    title: "Deputy Manager",
+  },
+  {
+    id: 4,
+    name: "Lorrayne Mvero",
+    title: "Agronomist",
+  },
+
+];
+
 const cocktailLists = [
   {
     name: "Chapel Hill Shiraz",
@@ -249,6 +273,7 @@ export {
   productsList,
   missionList,
   visionList,
+  teamLists,
   mockTailLists,
   profileLists,
   featureLists,

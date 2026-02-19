@@ -73,7 +73,7 @@ const About = () => {
         </div>
 
         <div className="masked-container">
-          <h2 className="will-fade">A Worthy Investment</h2>
+          <h2 className="will-fade text-white">A Worthy Investment</h2>
           <div id="masked-content">
             <h3>Work with us and farm with pride</h3>
             <p>
