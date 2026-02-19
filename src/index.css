@@ -132,7 +132,7 @@ body {
 
 
     #about {
-        @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
+        @apply flex-center flex-col min-h-dvh p-5 mt-20 relative md:radial-gradient;
 
         h2 {
             @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-modern-negra text-center text-[#505050] mb-8;
@@ -152,7 +152,7 @@ body {
             }
 
             div {
-                @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-5 bottom-52 left-1/2 -translate-x-1/2;
+                @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-5 bottom-15 left-1/2 -translate-x-1/2;
 
                 h3 {
                     @apply md:text-5xl text-2xl text-center font-serif md:w-full w-80 text-white;

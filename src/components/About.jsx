@@ -58,7 +58,7 @@ const About = () => {
             />
           </div>
 
-          <ul className="space-y-4 ">
+          <ul className="space-y-4">
             <h1 className="text-center text-2xl font-modern-negra">Vision</h1>
             {visionList.map((vision) => (
               <li
@@ -72,7 +72,7 @@ const About = () => {
           </ul>
         </div>
 
-        <div className="masked-container mt-1">
+        <div className="masked-container">
           <h2 className="will-fade">A Worthy Investment</h2>
           <div id="masked-content">
             <h3>Work with us and farm with pride</h3>
