@@ -40,8 +40,8 @@ const About = () => {
         </h2>
 
         <div className="content">
-          <ul className="space-y-4 ">
-            <h1 className="text-center text-2xl font-modern-negra">Mission</h1>
+          <ul className="space-y-2 text-center m-0">
+            <h1 className="text-2xl font-modern-negra">Mission</h1>
             {missionList.map((mission) => (
               <li key={mission.id} className="flex items-center gap-2">
                 <img src="/images/check.png" alt="check" />
@@ -58,8 +58,8 @@ const About = () => {
             />
           </div>
 
-          <ul className="space-y-4">
-            <h1 className="text-center text-2xl font-modern-negra">Vision</h1>
+          <ul className="space-y-2 m-0">
+            <h1 className="text-2xl font-modern-negra">Vision</h1>
             {visionList.map((vision) => (
               <li
                 key={vision.id}
@@ -75,7 +75,7 @@ const About = () => {
         <div className="masked-container">
           <h2 className="will-fade text-white">A Worthy Investment</h2>
           <div id="masked-content">
-            <h3>Work with us and farm with pride</h3>
+            <h3 className="opacity-0 md:opacity-100">Work with us and farm with pride</h3>
             <p>
               It is not just agricultural inputs we offer but we also assist in
               building your farming legacy.Delivering high yields ,keeping your
