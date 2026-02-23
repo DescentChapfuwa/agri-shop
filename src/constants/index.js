@@ -114,6 +114,33 @@ const teamLists = [
 
 ];
 
+const seedsLists = [
+  {
+    id: 1,
+    name: "Maize",
+    image: "/images/maize_seeds.png",
+  },
+   {
+    id: 2,
+    name: "Vegetable",
+    image: "/images/vegetable_seeds.png",
+  },
+  {
+    id: 3,
+    name: "Sorghum",
+    image: "/images/sorghum_seeds.png",
+  },
+   {
+    id: 4,
+    name: "Nuts",
+    image: "/images/nuts_seeds.png",
+  },
+
+];
+
+
+
+
 const cocktailLists = [
   {
     name: "Chapel Hill Shiraz",
@@ -274,6 +301,7 @@ export {
   missionList,
   visionList,
   teamLists,
+  seedsLists,
   mockTailLists,
   profileLists,
   featureLists,
