@@ -14,20 +14,20 @@ const navLinks = [
 ];
 
 const productsList = [
+    {
+    id: "seeds",
+    title: "Seeds",
+  },
   {
-    id: "Agro-tools",
+    id: "agro-tools",
     title: "Agriculture tools",
   },
   {
-    id: "Chemicals",
+    id: "chemicals",
     title: "Chemicals",
   },
-  {
-    id: "Seeds",
-    title: "Seeds",
-  },
    {
-    id: "Fertilizers",
+    id: "fertilizers",
     title: "Fertilizers",
   },
 ];
