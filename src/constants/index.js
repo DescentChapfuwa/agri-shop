@@ -138,35 +138,32 @@ const seedsLists = [
 
 ];
 
-
-
-
-const cocktailLists = [
+const agroToolsList = [
   {
-    name: "Chapel Hill Shiraz",
-    country: "AU",
-    detail: "Battle",
-    price: "$10",
+    id: 1,
+    name: "Farming Hoe",
+    image: "/images/farming_hoe.png",
+    price: "10"
+  },
+   {
+    id: 2,
+    name: "Ox drawn plough",
+    image: "/images/ox_drawn_plough.png",
+    price: "100"
   },
   {
-    name: "Caten Malbee",
-    country: "AU",
-    detail: "Battle",
-    price: "$49",
+    id: 3,
+    name: "Knapsack Sprayer",
+    image: "/images/sprayer.png",
+    price: "20"
   },
   {
-    name: "Rhino Pale Ale",
-    country: "CA",
-    detail: "750 ml",
-    price: "$20",
-  },
-  {
-    name: "Irish Guinness",
-    country: "IE",
-    detail: "600 ml",
-    price: "$29",
-  },
-];
+    id: 4,
+    name: "Wheelbarrow",
+    image: "/images/wheelbarrow.png",
+    price: "40"
+  }
+]
 
 const mockTailLists = [
   {
@@ -295,13 +292,13 @@ const sliderLists = [
 
 export {
   navLinks,
-  cocktailLists,
   productsLinks,
   productsList,
   missionList,
   visionList,
   teamLists,
   seedsLists,
+  agroToolsList,
   mockTailLists,
   profileLists,
   featureLists,
