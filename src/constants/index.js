@@ -148,13 +148,13 @@ const agroToolsList = [
    {
     id: 2,
     name: "Ox drawn plough",
-    image: "/images/ox_drawn_plough.png",
+    image: "/images/ox_drawn_plou.png",
     price: "100"
   },
   {
     id: 3,
     name: "Knapsack Sprayer",
-    image: "/images/sprayer.png",
+    image: "/images/sprayer.jpg",
     price: "20"
   },
   {
@@ -164,6 +164,24 @@ const agroToolsList = [
     price: "40"
   }
 ]
+
+const chemicalLists = [
+  {
+    id: 1,
+    name: "Pesti",
+    image: "/images/maize_seeds.png",
+  },
+   {
+    id: 2,
+    name: "Herbi",
+    image: "/images/vegetable_seeds.png",
+  },
+  {
+    id: 3,
+    name: "Insecti",
+    image: "/images/sorghum_seeds.png",
+  },
+];
 
 const mockTailLists = [
   {
@@ -299,6 +317,7 @@ export {
   teamLists,
   seedsLists,
   agroToolsList,
+  chemicalLists,
   mockTailLists,
   profileLists,
   featureLists,

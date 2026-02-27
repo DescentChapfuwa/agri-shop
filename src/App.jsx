@@ -5,6 +5,7 @@ import About from './components/About'
 import Team from './components/Team'
 import Seeds from './components/Seeds'
 import Tools from './components/Tools'
+import Chemicals from './components/Chemicals'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Team/>
       <Seeds/>
       <Tools/>
+      <Chemicals/>
     </main>
   )
 }

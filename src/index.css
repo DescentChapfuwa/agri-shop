@@ -175,16 +175,16 @@ body {
     }
     
   #agri-tools {
-        @apply relative w-full md:mt-10 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
+        @apply relative w-full md:mt-5 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
 
         .content {
             @apply flex flex-col justify-between items-center container mx-auto relative;
 
             .arrows {
-                @apply flex items-center justify-between w-full absolute;
+                @apply flex items-center justify-between w-full absolute mt-25;
 
                 button {
-                    @apply text-white hover:text-yellow cursor-pointer transition-colors max-w-36;
+                    @apply text-gray-600 hover:text-yellow cursor-pointer transition-colors max-w-36;
 
                     span {
                         @apply text-3xl font-modern-negra leading-none hidden md:block;

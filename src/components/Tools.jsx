@@ -3,7 +3,7 @@ import { useState } from "react";
 import { agroToolsList } from "../constants";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-
+import { ChevronLeft,ChevronRight } from 'react-feather';
 const Tools = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -49,11 +49,7 @@ const Tools = () => {
             onClick={() => gotoSlide(currentIndex - 1)}
           >
             <span className='text-yellow-300'>{prevTool.name}</span>
-            <img
-              src="/images/right-arrow.png"
-              aria-hidden="true"
-              alt="right-arrow"
-            />
+            <ChevronLeft size={40} />
           </button>
 
           <button
@@ -61,11 +57,7 @@ const Tools = () => {
             onClick={() => gotoSlide(currentIndex + 1)}
           >
             <span className='text-yellow-300'>{nextTool.name}</span>
-            <img
-              src="/images/left-arrow.png"
-              aria-hidden="true"
-              alt="left-arrow"
-            />
+            <ChevronRight size={40} />
           </button>
         </div>
 
