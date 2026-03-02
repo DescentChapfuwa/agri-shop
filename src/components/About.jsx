@@ -35,7 +35,7 @@ const About = () => {
   return (
     <div id="about">
       <div className="container mx-auto h-full pt-20">
-        <h2 className="will-fade text-yellow-300">
+        <h2 className="will-fade text-yellow-300  sm:text-3xl md:text-5xl md:mb-5 xl:text-8xl">
           ABO<span className="text-gray-600">UT</span>
         </h2>
 

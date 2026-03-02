@@ -38,7 +38,7 @@ const Tools = () => {
   return (
     <section id="agri-tools" aria-labelledby="tool-heading">
      
-     <h2 className= "text-yellow-300 text-center text-8xl font-modern-negra mb-5">
+     <h2 className= "text-yellow-300 text-center  sm:text-3xl md:text-5xl xl:text-8xl font-modern-negra mb-5">
           TOO<span className="text-gray-600">LS</span>
         </h2>
 
@@ -61,8 +61,8 @@ const Tools = () => {
           </button>
         </div>
 
-        <div className="tool">
-          <img src={currentTool.image} alt="" className="object-contain" />
+        <div className="tool ">
+          <img src={currentTool.image} alt="" className="object-contain rounded-4xl" />
         </div>
 
         <div className="recipe">

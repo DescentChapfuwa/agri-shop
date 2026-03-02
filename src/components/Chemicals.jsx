@@ -33,7 +33,7 @@ const Chemicals = () => {
 
   return (
     <section id="agri-chemicals" className="container mx-auto p-5 mt-10">
-       <h2 className= "text-yellow-300 text-center text-8xl font-modern-negra mb-5">
+       <h2 className= "text-yellow-300 text-center  sm:text-3xl md:text-5xl xl:text-8xl font-modern-negra mb-5">
           CHEMI<span className="text-gray-600">CALS</span>
         </h2>
       <div className="flex flex-col sm:flex-row gap-5">
